@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<!-- Bootstrap CSS -->
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css-ERRADO-DE-PROPOSITO" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" crossorigin="anonymous">
 
 	<link rel="stylesheet" href="estilo.css">
 
@@ -62,12 +62,12 @@
 				</div>
 				<div class="card-body">
 
-					<form name="frm" id="frm" action="index-errado-que-vai-para-um-lugar-que-nao-existe.php" method="post">
+					<form name="frm" id="frm" action="index.php" method="post">
 
 					<div class="row row g-2">
   						<div class="col col-sm">
 							<label class="form-label">Código: </label
-							<input type="number" id="codigo" name="" class="form-control" value="">
+							<input type="number" id="codigo" name="codigo" class="form-control" value="">
 							<small class="form-text text-muted"><em>Somente números.</em></small>
 						</div>
 						<div class="col col-sm-10">
@@ -80,12 +80,12 @@
 					<div class="row  row g-2">
   						<div class="col col-sm">
 							<label class="form-label">CPF: </label>
-							<input type="text" id="cpf" name="" class="form-control" value="9999999">
+							<input type="text" id="cpf" name="cpf" class="form-control" value="9999999">
 							<small  class="form-text text-muted"><em>Somente números.</em></small>
 </div>
 						<div class="col col-sm-8">
 							<label class="form-label">E-mail: </label>
-							<input type="email" id="email" name="" class="form-control" value="">
+							<input type="email" id="email" name="email" class="form-control" value="">
 							<small id="emailHelp" class="form-text text-muted"><em>email@email.com</em></small>
 						</div>
 					</div>
@@ -106,9 +106,9 @@
 							}
 						</script>
 
-						</div>
-
+					</form>
 				</div>
+				
 
 			</div>
 
