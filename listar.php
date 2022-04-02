@@ -113,7 +113,7 @@ $result = $conn->query($sql);
                 2022 Copyright: CTM Supervisão de Educação Online</span>
         </div
 
-    </div>
+        
     </div>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
